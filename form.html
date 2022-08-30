@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Değerlendirme</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div id="container2">
+<div id="header1"><h1><a href="index.html">Kitap İncelemeleri</a></h1></div>
+  <div id="wrapper">
+    <div id="değerlendirme">
+        <p><B>Değerlendirme</B></p>
+      </div> 
+
+    <div id="form">     
+           
+        İsim:<BR> <INPUT type=text Name="firstName"  size=20> <br> <br>
+            Soyisim: <BR> <INPUT type=text Name="lastName"  size=20> <br> <br>
+                İncelenmesini istediğiniz kitap önerisi: <BR> <INPUT type=text Name="firstName"  size=40> <br> <br>
+                    İncelenmesini istediğiniz kitabın türü: <BR><SELECT>
+                        <OPTION VALUE="DENEME">DENEME
+                        <OPTION VALUE="FANTASTİK">FANTASTİK
+                        <OPTION VALUE="KİŞİSEL GELİŞİM">KİŞİSEL GELİŞİM
+                        <OPTION VALUE="POLİSİYE-MACERA"> POLİSİYE-MACERA
+                        <OPTION VALUE="TARİH">TARİH
+                    </SELECT><br> <br>
+
+                       İncelemelerimizi nasıl buldunuz? <br> 
+                        <INPUT TYPE="radio" NAME="Değerlendirme" VALUE="Çok İyi">Çok İyi
+                        <INPUT TYPE="radio" NAME="Değerlendirme" VALUE="İyi">İyi
+                        <INPUT TYPE="radio" NAME="Değerlendirme" VALUE="Orta">Orta
+                        <INPUT TYPE="radio" NAME="Değerlendirme" VALUE="Kötü">Kötü
+                        <INPUT TYPE="radio" NAME="Değerlendirme" VALUE="Çok Kötü">Çok Kötü <br> <br>
+
+                        Sayfamızda incelenmesini istediğiniz başka tür veya türler varsa lütfen seçin! <br>    
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Anı">Anı
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Aşk">Aşk
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Bilim Kurgu">Bilim Kurgu
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Biyografi">Biyografi <br>
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Din">Din
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Gezi">Gezi
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Psikoloji">Psikoloji
+                        <INPUT TYPE="checkbox" NAME="Tür" VALUE="Şiir">Şiir <br> <br>
+                Yorumlarınız: <BR> <TEXTAREA NAME="Comments" ROWS=5 COLS=50 WRAP></TEXTAREA> <br>
+    
+               
+                    
+                    <button onclick="firstFunction()" >Submit!</button>
+            
+            <script>
+                function firstFunction(){
+                    alert("Alert in assignment one!");
+                }
+            </script>
+
+       </div>
+     
+
+
+</div> 
+</div>
+</body>
+</html>
